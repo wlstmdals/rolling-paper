@@ -34,7 +34,7 @@ services:
       - rolling-fe-be
 
   front:
-    image: sushijin/node-front:1.0
+    image: sushijin/node-front:2.0
     container_name: rolling-front
     restart: always
     depends_on:
